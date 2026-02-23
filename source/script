@@ -1,5 +1,8 @@
 local Globals = getgenv()
 
+print("=== Nexbyte TDS Loading ===")
+print("Game:", game.PlaceId)
+
 if not game:IsLoaded() then game.Loaded:Wait() end
 
 -- // services & main refs
@@ -853,7 +856,17 @@ end
 CurrentEquippedTowers = GetEquippedTowers()
 
 -- // ui
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AxrexD/Tds/refs/heads/main/source/version1ui"))()
+print("Loading UI Library...")
+local success, Library = pcall(function()
+    return loadstring(game:HttpGet("https://raw.githubusercontent.com/AxrexD/Tds/refs/heads/main/source/version1ui"))()
+end)
+
+if not success then
+    warn("Failed to load UI Library:", Library)
+    return
+end
+
+print("UI Library loaded successfully!")
 
 local Window = Library:Window({
     Title = "Nexbyte TDS",
