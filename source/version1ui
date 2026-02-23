@@ -157,13 +157,13 @@ local themes = {
 	},
 }
 
-local existingUI = game:GetService("CoreGui"):FindFirstChild("ADS")
+local existingUI = game:GetService("CoreGui"):FindFirstChild("NexbyteTDS")
 if existingUI then
 	existingUI:Destroy()
 end
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "ADS"
+ScreenGui.Name = "NexbyteTDS"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.DisplayOrder = 999
