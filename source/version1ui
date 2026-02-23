@@ -1252,7 +1252,7 @@ function Library:Window(p)
 	Minisize_1.BorderSizePixel = 0
 	Minisize_1.LayoutOrder = 2
 	Minisize_1.Size = UDim2.new(0, 16,0, 16)
-	Minisize_1.Image = "rbxassetid://13857987062"
+	Minisize_1.Image = "rbxassetid://97333311906986"
 	Minisize_1.ImageTransparency = 0.5
 
 	addToTheme('Text & Icon', Minisize_1)
@@ -4301,7 +4301,7 @@ function Library:Window(p)
 			ImageLogo.Position = UDim2.new(0.5,0,0.5,0)
 			ImageLogo.BackgroundTransparency = 1
 			ImageLogo.Size = UDim2.new(1,0,180,0)
-			ImageLogo.Image = 'rbxassetid://111362591084511'
+			ImageLogo.Image = 'rbxassetid://97333311906986'
 			ImageLogo.ScaleType = Enum.ScaleType.Crop
 			UICorner_1.Parent = ImageLogo
 			UICorner_1.CornerRadius = UDim.new(0,3)
@@ -5191,7 +5191,7 @@ function Library:Window(p)
 		CloseUIImage.BorderSizePixel = 0
 		CloseUIImage.Position = UDim2.new(0.5, 0,0.5, 0)
 		CloseUIImage.Size = UDim2.new(0, 50,0, 50)
-		CloseUIImage.Image = "rbxassetid://105059922903197"
+		CloseUIImage.Image = "rbxassetid://97333311906986"
 		CloseUIImage.ImageTransparency = 0
 
 		addToTheme('Text & Icon', CloseUIImage)
