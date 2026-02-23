@@ -4744,7 +4744,7 @@ function Library:Window(p)
 		ImageLabel_1.BorderSizePixel = 0
 		ImageLabel_1.Position = UDim2.new(0.5, 0,0.5, 0)
 		ImageLabel_1.Size = UDim2.new(0, 100,0, 100)
-		ImageLabel_1.Image = "rbxassetid://13857987062"
+		ImageLabel_1.Image = "rbxassetid://97333311906986"
 		ImageLabel_1.ImageTransparency = 1
 
 		UICorner_1.Parent = SizeFrame
@@ -4856,7 +4856,7 @@ function Library:Window(p)
 				fullSize = nZ
 				tw({v = SizeFrame, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {BackgroundTransparency = 0.6}}):Play()
 				tw({v = ImageLabel_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {ImageTransparency = 0}}):Play()
-				ImageLabel_1.Image = 'rbxassetid://13857987062'	
+				ImageLabel_1.Image = 'rbxassetid://97333311906986'	
 			elseif isMinimized and R and (i.UserInputType == Enum.UserInputType.MouseMovement or i.UserInputType == Enum.UserInputType.Touch) then
 				local nW = math.max(450, i.Position.X - Shadow_1.AbsolutePosition.X)
 				local nZ = UDim2.new(0, nW, 0, 43)
@@ -4864,7 +4864,7 @@ function Library:Window(p)
 				minimizedSize = nZ
 				tw({v = SizeFrame, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {BackgroundTransparency = 0.6}}):Play()
 				tw({v = ImageLabel_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {ImageTransparency = 0}}):Play()
-				ImageLabel_1.Image = 'rbxassetid://14906268026'
+				ImageLabel_1.Image = 'rbxassetid://97333311906986'
 			end
 		end)
 
